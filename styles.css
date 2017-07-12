@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  font-family: arial;
+}
+
+h1 {
+  margin: 40px auto 40px auto;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+ul {
+  width: 84%;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+li {
+  box-sizing: border-box;
+  width: calc(100%/4);
+  /*border: 1px solid black;*/
+  padding: 5px;
+  padding-bottom: 80px;
+}
+
+#gridList {
+
+}
+
+.gridImage {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+#gridList > li > div {
+  height: 100%;
+  /*background-color: blue;*/
+  text-align: center;
+
+}
+
+#gridList > li > div > h3 {
+  margin: auto;
+  text-transform: uppercase;
+
+}
+
+#gridList > li > div > div {
+  width: 45%;
+  /*border: 1px solid rgb(97, 180, 137);*/
+  background-color: rgb(97, 180, 137);
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+
+}
+
+#gridList > li > div > p.customerEmail {
+  margin-bottom: 15px;
+  color: rgb(205, 205, 205);
+  font-weight:100;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+#gridList > li > div > p {
+  margin: 0 auto;
+  font-weight:100;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  text-transform: capitalize;
+  color: rgb(130, 130, 130);
+
+}
+
+#gridList > li > div > p.customerIdValue {
+  margin-top: 15px;
+  color: transparent;
+  text-shadow: 0 0 7px rgba(97,180,137,0.5);
+}
+
+#gridList > li > div > p.customerIdValue:hover {
+  color: rgb(97, 180, 137);
+  text-shadow: 0 0 0px rgba(97,180,137,1);
+
+}
